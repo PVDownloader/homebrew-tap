@@ -1,9 +1,9 @@
 cask "pvdownloader" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "e08b05d5653ef8c83b2b87684d9a258f430e3592e519e5fec1f7a5462f4e87ee",
-         intel: "8efba793b45d67b5f3a8247153b13a1859cc59c925a7a1d14d99cf99ed5ac6ec"
+  version "1.1.0"
+  sha256 arm:   "e2baecbbcfd6a7e1b224f5f8475ba20553be167e5df7258f07da4b845a7ff1a1",
+         intel: "501fd589765bca1bad6e210cf433613b54e49bf87c3d02b187880787843ff7e6"
 
   url "https://github.com/Berke-Alp/pvdownloader-releases/releases/download/v#{version}/PVDownloader-osx-#{arch}-Setup.pkg"
   name "PVDownloader"
